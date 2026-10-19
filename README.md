@@ -53,6 +53,10 @@ systemctl --user enable --now aternos-status.service
 ## For Other OSes
 Make sure that Python3 is installed
 ```
-python3 aternos-status.py
+python3 aternos-status.py myserver.aternos.me
+```
+Or:
+```
+python aternos-status.py myserver.aternos.me
 ```
 This only gives you the functionality of the status only. No Notifications, ntfy, autostart.
