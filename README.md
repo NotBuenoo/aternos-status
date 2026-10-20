@@ -31,7 +31,7 @@ mkdir -p ~/.local/bin ~/.config/systemd/user
 install -m755 aternos-status.py ~/.local/bin/aternos-status
 ```
 2. (OPTIONAL) Create the service file at `~/.config/systemd/user/aternos-status.service`:
-```
+```ini
 [Unit]
 Description=Aternos server status watcher
 
